@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PiDarkPhotos", "PiDarkPhotos\PiDarkPhotos.csproj", "{03C57E19-459F-4152-99BD-E61F3C7D1520}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PiDarkPhotosUtilities", "PiDarkPhotos.Utilities\PiDarkPhotosUtilities.csproj", "{F77F6F5A-8629-431C-AAF7-2D662DB5A9A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6A7C71EF-A007-429A-9F73-F89C47EFEC6D}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03C57E19-459F-4152-99BD-E61F3C7D1520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03C57E19-459F-4152-99BD-E61F3C7D1520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03C57E19-459F-4152-99BD-E61F3C7D1520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03C57E19-459F-4152-99BD-E61F3C7D1520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F77F6F5A-8629-431C-AAF7-2D662DB5A9A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F77F6F5A-8629-431C-AAF7-2D662DB5A9A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F77F6F5A-8629-431C-AAF7-2D662DB5A9A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F77F6F5A-8629-431C-AAF7-2D662DB5A9A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA5DB720-F855-47AB-932A-F576E3567959}
+	EndGlobalSection
+EndGlobal
