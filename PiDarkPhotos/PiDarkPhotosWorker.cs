@@ -9,7 +9,7 @@ namespace PiDarkPhotos;
 public class PiDarkPhotosWorker : BackgroundService
 {
     private ScheduledPhotoDateTime _nextDateTime = new()
-        { PhotoSeries = -1, ScheduledTime = new DateTime(2012, 1, 1, 0, 0, 0) };
+        { PhotoSeries = "DefaultPhotoSeries", ScheduledTime = new DateTime(2012, 1, 1, 0, 0, 0) };
 
     public required string CameraDirectives { get; set; }
     public required bool ErrorDetails { get; set; }
@@ -57,7 +57,7 @@ public class PiDarkPhotosWorker : BackgroundService
             if (string.IsNullOrWhiteSpace(seriesName)) seriesName = "UnknownSeries".SanitizeForFileName();
 
             var fileName = Path.Combine(LocationTools.PhotoDirectory().FullName,
-                $"{DateTime.Now:yyyy-MM-dd-HH-mm}---{currentPhotoDateTime.PhotoSeries:0000}--{seriesName}.jpg");
+                $"{DateTime.Now:yyyy-MM-dd-HH-mm}---{currentPhotoDateTime.PhotoSeries}--{seriesName}.jpg");
 
             var photoExecutable = "libcamera-still";
             var photoArguments = $"-o {fileName} {CameraDirectives}".Trim();

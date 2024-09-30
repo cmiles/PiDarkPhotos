@@ -31,14 +31,14 @@ public static class ScheduledPhotoDateTimeTools
         {
             dateTimeList.Add(new ScheduledPhotoDateTime
             {
-                PhotoSeries = loopTimes.Item1,
+                PhotoSeries = $"{loopTimes.Item1:000}of{numberOfPhotosPerDay:000}",
                 ScheduledTime = new DateTime(basisDateTime.Year, basisDateTime.Month, basisDateTime.Day,
                     loopTimes.Item2.Hour,
                     loopTimes.Item2.Minute, loopTimes.Item2.Second)
             });
             dateTimeList.Add(new ScheduledPhotoDateTime
             {
-                PhotoSeries = loopTimes.Item1,
+                PhotoSeries = $"{loopTimes.Item1:000}of{numberOfPhotosPerDay:000}",
                 ScheduledTime = new DateTime(basisDateTimeTomorrow.Year, basisDateTimeTomorrow.Month,
                     basisDateTimeTomorrow.Day, loopTimes.Item2.Hour,
                     loopTimes.Item2.Minute, loopTimes.Item2.Second)

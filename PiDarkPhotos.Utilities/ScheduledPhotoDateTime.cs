@@ -2,6 +2,6 @@
 
 public class ScheduledPhotoDateTime
 {
-    public int PhotoSeries { get; set; }
+    public string PhotoSeries { get; set; } = "Unknown";
     public DateTime ScheduledTime { get; set; }
 }
