@@ -15,12 +15,12 @@ public static class ScheduledPhotoDateTimeTools
 
         if (numberOfPhotosPerDay > 1)
         {
-            var minutesPerSegment = 24 * 60 / (decimal)numberOfPhotosPerDay;
+            var minutesPerSegment = (24 * 60) / (decimal)numberOfPhotosPerDay;
 
             for (var i = 1; i < numberOfPhotosPerDay; i++)
             {
                 var minutesToAdd = minutesPerSegment * i;
-                var timeToAdd = new TimeOnly(0, (int)minutesToAdd, 0);
+                var timeToAdd = TimeOnly.FromTimeSpan(TimeSpan.FromMinutes((double)minutesToAdd));
                 photoTimes.Add((i + 1, timeToAdd));
             }
         }
