@@ -22,6 +22,6 @@ internal class Options
         HelpText = "The gpio pin the light, or lights, are connected to.", Default = 17)]
     public int GpioPin { get; set; }
 
-    [Option('n', "numberofphotosperday", Required = false, HelpText = "The number of photos per day", Default = 2, Max = 999)]
+    [Option('n', "numberofphotosperday", Required = false, HelpText = "The number of photos per day", Default = 2)]
     public int NumberOfPhotosPerDay { get; set; }
 }
