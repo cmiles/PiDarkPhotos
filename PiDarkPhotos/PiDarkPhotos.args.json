@@ -1,0 +1,10 @@
+{
+  "FileVersion": 2,
+  "Id": "03c57e19-459f-4152-99bd-e61f3c7d1520",
+  "Items": [
+    {
+      "Id": "af1e0247-3234-4010-980e-76630bfc219d",
+      "Command": "-c \"-shutter 600000\" -f \"GreyWater\" -n 24 -e true"
+    }
+  ]
+}

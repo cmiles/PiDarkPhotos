@@ -83,6 +83,7 @@ This program would not be possible without the amazing resources available for c
 
 **Libraries:**
   - [GitInfo | Git and SemVer Info from MSBuild, C# and VB](https://www.clarius.org/GitInfo/). MIT License.
+  - [SvenGroot/Ookii.CommandLine: Ookii.CommandLine is a powerful and flexible command line argument parsing library for .Net applications, supporting PowerShell-like and POSIX-like conventions, as well as subcommands.](https://github.com/SvenGroot/Ookii.CommandLine?tab=readme-ov-file)
   - [serilog/serilog: Simple .NET logging with fully-structured events](https://github.com/serilog/serilog). Easy full featured logging. Apache-2.0 License.
    - [RehanSaeed/Serilog.Exceptions: Log exception details and custom properties that are not output in Exception.ToString().](https://github.com/RehanSaeed/Serilog.Exceptions) MIT License.
    - [serilog/serilog-formatting-compact: Compact JSON event format for Serilog](https://github.com/serilog/serilog-formatting-compact). Apache-2.0 License.
