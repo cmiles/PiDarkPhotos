@@ -2,7 +2,7 @@
 Description=Pi Dark Photos
 
 [Service]
-ExecStart=/home/[Your Directory Here]/PiDarkPhotosProject/PiDarkPhotos/VibrationMonitor
+ExecStart=/home/[Your Directory Here]/PiDarkPhotosProject/PiDarkPhotos/PiDarkPhotos
 WorkingDirectory=/home/[Your Directory Here]/PiDarkPhotosProject/PiDarkPhotos/
 Restart=always
 RestartSec=10
